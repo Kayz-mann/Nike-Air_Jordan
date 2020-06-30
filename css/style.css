@@ -299,3 +299,33 @@ section .details .product-btn-price h1.price {
   font-style: 2em;
   letter-spacing: 0.1em;
 }
+
+@media screen and (max-width: 1024px) {
+  .navigation {
+    margin-top: -50px;
+    float: right;
+    margin-right: 40px;
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .foot img {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  section .display img {
+    font-size: 5px;
+    margin-bottom: 200px;
+    margin-right: 50px;
+  }
+  .display {
+    font-size: 8px;
+  }
+  .navigation {
+    font-size: 9px;
+    margin-right: 10px;
+  }
+}
