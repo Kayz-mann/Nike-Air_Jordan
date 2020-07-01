@@ -329,3 +329,14 @@ section .details .product-btn-price h1.price {
     margin-right: 10px;
   }
 }
+
+@media screen and (max-width: 700px) {
+  .navigation {
+    display: none;
+  }
+
+  div .prefix-15.grid-30 {
+    margin-top: -90px;
+    float: right;
+  }
+}
