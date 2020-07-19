@@ -2,7 +2,7 @@
   position: relative;
   overflow: hidden;
   background-image: linear-gradient(#ed5f47, #fe2d3b);
-  /*height: 100vh;*/
+  height: 100vh;
 }
 
 header {
